@@ -4,7 +4,7 @@ It is just a simple AutoMapper that uses c# 9 source generator. It is not produc
 ***
 # How to use
 It create method for Mapping two object type,
-you to create a partial class and specify which type you want to map by using `Map` Attribute
+you have to create a partial class and specify which type you want to map by using `Map` Attribute
 ```C#
 [Map(typeof(MapGeneratorTests.User), typeof(MapGeneratorTests.UserDto))]
 public static partial class Mappers
